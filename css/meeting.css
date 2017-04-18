@@ -1,0 +1,284 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	display: block
+}
+.meeting {
+	padding: 10px;
+	background-color: #420eb8;
+	width: 1180px;
+	margin-top: -15px;
+	border-radius: 15px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.meeting .intro,
+.meeting form {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+}
+.meeting .intro {
+	width: 760px;
+	float: left;
+}
+.meeting .intro h2,
+.meeting form h2 {
+	height: 55px;
+	line-height: 55px;
+	font-size: 26px;
+	font-weight: normal;
+	color: #420eb8;
+	border-bottom: dotted 2px #a3a3a3;
+	margin-bottom: 2px;
+	text-align:center;
+}
+.meeting .intro .a {
+	width: 440px;
+	padding: 10px;
+	float: left;
+	border-right: dotted 2px #E5E5E5;
+}
+.meeting .intro .a table {
+	font-size: 16px;
+}
+.meeting .intro .a table th,
+.meeting .intro .a table td {
+	vertical-align: top;
+	padding: 5px 0;
+}
+.meeting .intro .a .route {
+	text-align: right;
+}
+.meeting .intro .a .route a {
+	padding: 5px 0px 5px 20px;
+	background: url(../img/sign.gif) 0 0 no-repeat;
+	color: #333;
+	margin-right: 5px;
+}
+.meeting .intro .a .route a.car {
+	background-position: 0 -502px;
+}
+.meeting .intro .a .route a.map {
+	background-position: 0 -544px;
+}
+.meeting .intro .b {
+	width: 290px;
+	float: right;
+}
+.meeting .intro .b div {
+	font-size: 20px;
+	padding: 15px 0;
+	text-align: right;
+}
+.meeting .intro .b div strong {
+	color: #420eb8;
+}
+.meeting .intro .b table {
+	border-top: dashed 1px #BABABA;
+	background-color: #FDE8E6;
+	width: 100%;
+}
+.meeting .intro .b table th,
+.meeting .intro .b table td {
+	text-align: center;
+	padding: 4px 10px;
+}
+.meeting form {
+	width: 360px;
+	float: right;
+}
+.meeting form .container {
+	padding: 20px 20px 0;
+	height: 334px;
+}
+.meeting form label {
+	height: 46px;
+	line-height: 40px;
+	display: block;
+}
+.meeting form label strong {
+	font-weight: normal;
+}
+.meeting form label input {
+	height: 22px;
+	padding: 5px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	width: 220px;
+}
+.meeting form button.submit {
+	display: block;
+	width: 165px;
+	height: 43px;
+	color: #FFF;
+	background: #420eb8 url(../img/btnSign.png) 0 0 no-repeat;
+	border: none;
+	text-indent: -999px;
+	overflow: hidden;
+	margin: 14px auto;
+	cursor: pointer;
+}
+.meeting form p {
+	font-size: 22px;
+	line-height: 15px;
+	color: #420eb8;
+	font-weight:bold;
+	margin: 10px 0;
+}
+
+dl.mod {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:1200px;
+	margin:0 auto;
+}
+
+ul.productList {
+	padding-left: 20px;
+}
+ul.productList li {
+	background-color: #fff;
+	border: 1px solid #e3e3e3;
+	padding: 10px;
+	float: left;
+	display: block;
+	margin-right: 28px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	width: 245px;
+	/*height: 240px;*/
+}
+ul.productList li .thumb {
+	width: 240px;
+	height: 180px;
+	background-color: #CCC;
+}
+ul.productList li .info {
+	color: #420eb8;
+}
+ul.productList li .title {
+	color: #333;
+}
+ul.productList li .title {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	font-weight: bold;
+}
+ul.productList li a:hover .title {
+	color: #D50100;
+}
+ul.productList li .realPrice strong {
+	font-size: 20px;
+	font-family: "Times New Roman";
+}
+ul.productList li .price {
+	color: #666;
+	text-decoration: line-through;
+}
+ul.productList li .btn {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #E0292B;
+	color: #FFF;
+	font-size: 18px;
+}
+ul.productList li .btn:hover {
+	background-color: #EF3133;
+}
+div.brandList li img{
+	width: 180px;
+    height: 75px;
+    border: solid 1px #e3e3e3;
+    
+}
+div.brandList li {
+    float: left;
+    width: 195px;
+    height: 90px;
+    overflow: hidden;
+    }
+.groupBuyTip img {
+	max-width:1200px;
+	width:expression(this.width>1200?1200:true);
+}
+
+body {
+	padding-bottom:70px;
+}
+#fixSignBar {
+	height:70px;
+	background:#000;
+	color:#FFF;
+	position:fixed;
+	left:0;
+	bottom:0;
+	right:0;
+}
+#fixSignBar .container {
+	width:1000px;
+	margin:0 auto;
+}
+#fixSignBar .container .num {
+	width:230px;
+	float:left;
+	line-height:70px;
+	height:70px;
+	text-align:center;
+}
+#fixSignBar .container .num span {
+	padding:2px 6px;
+	background-color:#666;
+	margin-right:2px;
+}
+#fixSignBar .container form {
+	width:710px;
+	float:left;
+	height:60px;
+	padding-top:10px;
+}
+#fixSignBar .container form input {
+	outline:none;
+	width:150px;
+	line-height:30px;
+	height:30px;
+	border:solid 1px #333;
+	padding-left: 24px;
+	background: #FFF url(../images/i-nickname.png) no-repeat 5px center;
+}
+#fixSignBar .container form input.contact {
+	background-image:url(../images/i-contact.png);
+}
+#fixSignBar .container form input.area {
+	background-image:url(../images/i-area.png);
+}
+#fixSignBar .container .btn {
+	border:none;
+}
+#fixSignBar .container .sign {
+	cursor:pointer;
+	float:right;
+	width:160px;
+	height:50px;
+	line-height:50px;
+	font-size:24px;
+	color:#FFF;
+	background-color:#C00;
+	text-align:center;
+}
+#fixSignBar .container .close {
+	border:solid 1px #333;
+	color:#DDD;
+	padding:0px 5px;
+	background:#000;
+	float:right;
+	margin-top:10px;
+}

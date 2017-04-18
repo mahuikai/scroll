@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="./css/meeting.css">
+        <script src="./js/jquery.js"></script>
+        <script src="./js/scroll.js"></script>
+		<style>
+			*{padding:0;margin:0;}
+			body{font-family: "微软雅黑";}
+			img{
+				display: block;
+				border: 0;
+			}
+			.lyn_box1{
+		        width:100%;  
+	            position:relative;  
+	            overflow:hidden;  
+	            min-width: 1200px; 
+            }
+
+			.lyn_box2{
+				 width:1920px;  
+			     position:absolute;  
+			     left:50%;  
+			     margin-left:-960px;  
+			      }
+			.lyn_special{
+			     width:244px;
+			     height: 63px;
+			     position: absolute;
+			     left: 50%;
+			     top:0;
+			     margin-left: -122px;
+			     z-index: 4;
+			     cursor: pointer;
+			    }   
+			.activitySignUp h2{
+        		background:#fe7202;
+        	}
+        	.activitySignUp{
+				position: fixed;
+				left: 50%;
+				top:50%;
+				width:350px;
+				margin-top:-180px;
+				margin-left: -150px;
+				border:2px solid #fe7202;
+				background: #fff;
+				text-align: center;
+				display: none;
+				box-shadow: 0 0 10px #000;
+				z-index: 10;
+				border-radius: 5px;
+			}
+			.activitySignUp h2{
+				line-height: 45px;
+				color:#fff;
+			}
+			.activitySignUp label{
+				display: block;
+				margin:20px 0;
+			}
+			.activitySignUp label input{
+				height: 30px;
+				width: 244px;
+			}
+			.activitySignUp button{
+				width:80px;
+				height: 37px;
+				font-size:18px;
+				color:#fff;
+				background: #fe7202;
+				border:0;
+				cursor: pointer;
+				margin-bottom: 40px;
+				border-radius: 5px;
+			}
+        	.activitySignUp span{
+        		float: right;
+        		color:#fff;
+        		padding-right: 20px;
+        		cursor: pointer;
+        	}
+        	.activitySignUp dl{
+        		margin:20px 0;
+        		overflow: hidden;
+        		margin-left:25px;
+        	}
+        	.activitySignUp dl dd{
+        		line-height: 36px;
+        		margin-left: 15px;
+        		font-size:14px;
+        		border-bottom: 1px solid #efefef;
+        		width: 233px;
+        		text-align: left;
+        	}
+        	.activitySignUp dl dt{
+        		float: left;
+        		width:36px;
+        		height: 36px;
+        		text-align: center;
+        		line-height: 36px;
+        		background: #2ec4a9;
+        		color: #fff;
+        		border-radius: 50%;
+        	}
+        	.activitySignUp dl .lyn_dt2{
+        		background: #9b98e5;
+        	}
+        	.activitySignUp dl .lyn_dt3{
+        		background: #fb9d9e;
+        	}
+        	.activitySignUp dl dd{
+        		float: left;
+        	}
+        	.meeting{
+        		position:absolute;
+        		left: 50%;
+        		margin-left: -600px;
+        		top:63px;
+        	}
+		</style>
+	</head>
+	<body>
+		
+	    <div class="lyn_box1" style="height:1081px;">
+	        <div class="lyn_box2">
+		        <img src="img/1.jpg" alt="郑州装修" title="郑州装修">    
+		    </div>
+	    </div>
+	    
+	    <div class="lyn_box1" style="height:981px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_03.jpg" alt="郑州装修网" title="郑州装修网">
+		         <div class="meeting wrap c">
+		<div class="intro">
+			<h2>跨年大钜惠！</h2>
+			<div class="a">
+				<table class="info">
+					<tbody><tr height="40"> <td>活动日期：</td> <td>
+					2016年12月31日
+					 ~ 2017年1月1日					</td> </tr>
+					<tr height="40"> <td>报名电话：</td> <td>4009677188</td> </tr>
+					<tr height="40"> <td>活动地点：</td> <td> 商都路中兴南路建正东方中心B座四层</td> </tr>
+				</tbody></table>
+				
+				<img src="./img/groupBuyServiceMotto.png" alt="装家兵" style="margin-top:23px; margin-left: -13px;">
+			</div>
+			<style>
+			
+				.lyn_wrap li{
+					height: 26px;
+					line-height: 26px;
+					font-size: 14px;
+				}
+				.lyn_wrap li span:nth-child(1){
+					float: left;
+					padding-left: 20px;
+				}
+				.lyn_wrap li span:nth-child(2){
+					float: right;
+					padding-right: 20px;
+				}
+				.lyn_wrap li{
+					height: 26px;
+				}
+			</style>
+			<div class="b">
+				<div>已有<strong>115</strong>位网友报名</div> 
+				<div style="height: 300px; overflow: hidden; padding:0" class="myscroll">
+				<ul class="lyn_wrap" style="background:#eee;">
+					<li><span>李**</span><span>获得5000元券和晾衣架</span></li>
+					<li><span>王**</span><span>获得8000元券和晾衣架</span></li>
+					<li><span>张**</span><span>获得6000元券和晾衣架</span></li>
+					<li><span>高**</span><span>获得10000元券和晾衣架</span></li>
+					<li><span>赵**</span><span>获得10000元券和晾衣架</span></li>
+					<li><span>钱**</span><span>获得5000元券和晾衣架</span></li>
+					<li><span>凌**</span><span>获得10000元券和晾衣架</span></li>
+					<li><span>李**</span><span>获得5000元券和晾衣架</span></li>
+					<li><span>王**</span><span>获得8000元券和晾衣架</span></li>
+					<li><span>孙**</span><span>获得10000元券和晾衣架</span></li>
+					<li><span>李**</span><span>获得9000元券和晾衣架</span></li>
+					<li><span>郭**</span><span>获得10000元券和晾衣架</span></li>
+					<li><span>周**</span><span>获得8000元券和晾衣架</span></li>
+					<li><span>吴**</span><span>获得10000元券和晾衣架</span></li>
+					<li><span>仝**</span><span>获得9000元券和晾衣架</span></li>
+				</ul>
+				
+			</div>
+			</div>
+		</div>
+		<style>
+			.daojishi p span{
+				float: left;
+				width:24px;
+				height: 50px;
+				background:#000;
+				margin-right: 5px;
+				text-align: center;
+				line-height: 50px;
+				color: #fff;
+				border-radius: 5px;
+			}
+			.daojishi p i{
+				float: left;
+				line-height: 50px;
+				font-style: normal;
+				margin-right: 5px;
+				font-size: 16px;
+			}
+			.lyn_bb{
+				display: block;
+				height: 20px;
+				line-height: 20px;
+				color:red;
+				padding-left: 94px;
+				font-size: 14px;
+			}
+		</style>
+		<form  >
+			<h2>免费报名</h2>
+			<div class="container">
+				<div class="daojishi" style="text-align: center;">
+					<span  style="font-size: 22px;">----距离活动时间结束还有----</span>
+					<p style="overflow: hidden;">
+						<span>0</span><span class="djs_day">0</span><i>天</i>
+						<span class="djs_hour1">0</span><span class="djs_hour2">0</span><i>时</i>
+						<span class="djs_minute1">0</span><span class="djs_minute2">0</span><i>分</i>
+						<span class="djs_second1">0</span><span class="djs_second2">0</span><i>秒</i></p>
+				</div>
+				<label> <span style="color:#F00">*</span><strong>真实姓名：</strong><input name="nickname" type="text" placeholder="例：张三" class="lyn_nickname"></label>
+				<b class="lyn_bb lyn_bbb_name"></b>
+				<label> <span style="color:#F00">*</span><strong>手机号码：</strong><input name="contact" type="text" placeholder="例：18603798888" class="lyn_contact" onkeyup="this.value=this.value.replace(/\D/g,'')"></label>
+				<b class="lyn_bb lyn_bbb_mobile"></b>
+				<button class="submit lyn_submit" type="submit">免费报名</button>
+				<p>报名电话：4009677188</p>
+				<input type="hidden" name="title" value="12月11日建材家装团购博览会！">
+				<input type="hidden" name="groupbuyid" value="177">
+				<input type="hidden" name="groupbuymanager" value="liyukai">
+				<input type="hidden" name="action" value="add">
+									<input type="hidden" name="date" value="2016年12月11日09:00~12月11日19:00">
+				<input type="hidden" name="address" value="洛阳新区会展中心">
+			</div>
+		</form>
+	</div>
+		          
+		    </div>
+	    </div>
+	    <div class="lyn_box1" style="height:63px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_04.jpg" alt="郑州装修平台" title="郑州装修平台">  
+		        <div class="lyn_special lyn_ab"></div>
+		    </div>
+	    </div>
+	    <div class="lyn_box1" style="height:587px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_05.jpg" alt="郑州装修托管" title="郑州装修托管">   
+		       
+		    </div>
+	    </div>
+	    <div class="lyn_box1" style="height:63px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_06.jpg" alt="郑州家庭装修" title="郑州家庭装修">  
+		         <div class="lyn_special lyn_ab"></div>
+		    </div>
+	    </div>
+	    <div class="lyn_box1" style="height:586px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_07.jpg" alt="郑州装修公司" title="郑州装修公司">   
+		    </div>
+	    </div>
+	    <div class="lyn_box1" style="height:63px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_08.jpg" alt="郑州家装" title="郑州家装">
+		        <div class="lyn_special lyn_jjj"></div>
+		    </div>
+	    </div>
+	    <div class="lyn_box1" style="height:586px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_09.jpg" alt="简约风格装修" title="简约风格装修">   
+		    </div>
+	    </div>
+	    <div class="lyn_box1" style="height:63px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_10.jpg" alt="郑州装饰" title="郑州装饰">
+		        <div class="lyn_special lyn_ab"></div>
+		    </div>
+	    </div>
+	    <div class="lyn_box1" style="height:900px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_11.jpg" alt="郑州简欧装修" title="郑州简欧装修">  
+		    </div>
+	    </div>
+	     <div class="lyn_box1" style="height:63px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_12.jpg" alt="别墅设计" title="别墅设计">
+		        <div class="lyn_special lyn_ab"></div>
+		    </div>
+	    </div>
+	     <div class="lyn_box1" style="height:587px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_13.jpg"  alt="三室二厅装修" title="三室二厅装修">  
+		    </div>
+	    </div>
+	     <div class="lyn_box1" style="height:63px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_14.jpg" alt="郑州卧室装修" title="郑州卧室装修">
+		        <div class="lyn_special lyn_ab"></div>
+		    </div>
+	    </div>
+	     <div class="lyn_box1" style="height:586px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_15.jpg" alt="郑州小户型装修" title="郑州小户型装修">    
+		    </div>
+	    </div>
+	     <div class="lyn_box1" style="height:63px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_16.jpg" alt="郑州现代简约装修" title="郑州现代简约装修"> 
+		         <div class="lyn_special lyn_ab"></div>
+		    </div>
+	    </div>
+	     <div class="lyn_box1" style="height:740px;">
+	        <div class="lyn_box2">
+		        <img src="img/1_17.jpg" alt="郑州装修多少钱" title="郑州装修多少钱">    
+		        
+		    </div>
+	    </div>
+	    <p class="lyn_pppp" style="position: fixed; left:50%; top:50%;height: 50px; width:130px; text-align: center; line-height: 50px; background: #000; color: #fff; display: none;"></p>
+	     
+	    <div class="activitySignUp">
+		<h2>活动报名<span>X</span></h2>
+		<label>姓名：<input class="sjs_input" name="i-name" id="i-name" type="text" placeholder="请输入您的姓名" /></label>
+		<label>电话：<input class="sjs_input" type="text" name="i-mobile" id="i-mobile" placeholder="请输入您的手机号码" /></label>
+		<dl>
+			<dt>店名</dt>
+			<dd>装家兵大型体验店</dd>
+		</dl>
+		<dl>
+			<dt class="lyn_dt2">电话</dt>
+			<dd>4009-677-188</dd>
+		</dl>
+		<dl>
+			<dt class="lyn_dt3">地址</dt>
+			<dd>商都路中兴南路  建正东方中心B座4层</dd>
+		</dl>
+		<button onclick="doSubmitForm()">报名</button>
+		</div>
+	</body>
+		<script>
+				$(function(){
+			    $('.myscroll').myScroll({
+			        speed: 30, //数值越大，速度越慢
+			        rowHeight: 26 //li的高度
+			    });
+			});
+		</script>
+		<script>
+	     $(function(){
+	     	var number;
+	     	var date = new Date();
+            var hour = date.getHours(); 
+
+            if(hour>=8&&hour<=24){
+            	number=115+hour*2;	
+            	 $(".b strong").html(number);    
+            }
+	     		
+	     })
+	      		
+	</script>
+	<script language="javascript" type="text/javascript"> 
+		function ShowCountDown(year,month,day,hour,minute,second) 
+		{ 
+		var now = new Date(); 
+		var endDate = new Date(year, month-1, day,hour,minute,second); 
+		var leftTime=endDate.getTime()-now.getTime(); 
+		var leftsecond = parseInt(leftTime/1000); 
+		var day1=Math.floor(leftsecond/(60*60*24)); 
+		var hour=Math.floor((leftsecond-day1*24*60*60)/3600); 
+		var minute=Math.floor((leftsecond-day1*24*60*60-hour*3600)/60); 
+		var second=Math.floor(leftsecond-day1*24*60*60-hour*3600-minute*60); 
+		$(".djs_day").html(day1);
+		$(".djs_hour1").html(parseInt(hour/10));
+		$(".djs_hour2").html(hour%10);
+		$(".djs_minute1").html(parseInt(minute/10));
+		$(".djs_minute2").html(minute%10);
+		$(".djs_second1").html(parseInt(second/10));
+		$(".djs_second2").html(second%10);
+		
+		} 
+		window.setInterval(function(){ShowCountDown(2017,1,1,23,59,59);}, 1000); 
+	</script> 
+	<script>
+		
+    	 var flag8888=false;
+         var flag9999=false;
+    $(".lyn_nickname").blur(function(){
+        if($(".lyn_nickname").val().length==0){
+            $(".lyn_bbb_name").html("用户名不能为空");
+            flag8888=false;
+        }
+        else{
+            $(".lyn_bbb_name").html("");
+            flag8888=true;
+        }
+    })
+     $(".lyn_contact").blur(function(){
+        if($(".lyn_contact").val().length==0){
+            $(".lyn_bbb_mobile").html("手机号不能为空");
+            flag9999=false;
+        }
+        else if(!(/^1[34578]\d{9}$/.test($(".lyn_contact").val()))){ 
+            $(".lyn_bbb_mobile").html("手机号格式不正确");
+            flag9999=false;
+        }else{
+            $(".lyn_bbb_mobile").html("");
+            flag9999=true;
+        }
+    })
+        $(".lyn_submit").click(function(){
+        	if($(".lyn_nickname").val().length==0){
+            $(".lyn_bbb_name").html("用户名不能为空");
+            flag8888=false;
+        }
+        	 if($(".lyn_contact").val().length==0){
+            $(".lyn_bbb_mobile").html("手机号不能为空");
+            flag9999=false;
+        }
+        	  if(flag8888&&flag9999){
+	        	  	$.ajax({
+		                type:"post",
+		                url:"./1.php",
+		                data:{
+		                    "name":$(".lyn_nickname").val(),
+		                    "mobile":$(".lyn_contact").val()
+		                },
+			                success : function(result) {
+								if(result==1){
+						                $(".lyn_pppp").css("display","block");
+						                $(".lyn_pppp").html("报名成功");
+						                $(".lyn_nickname").val("")
+						                $(".lyn_contact").val("")
+						               
+						                setTimeout(function(){
+						               		 $(".lyn_pppp").css("display","none");
+						               		 
+						            	},2000);
+					            }else{
+					            	$(".lyn_pppp").css("display","block");
+						                 $(".lyn_pppp").html("报名失败");
+						                 $(".lyn_nickname").val("")
+						                 $(".lyn_contact").val("")
+						                setTimeout(function(){
+						               		 $(".lyn_pppp").css("display","none");
+						            	},2000);
+					            }
+			                }
+	                });
+	            
+        	   }    
+            });
+   
+    
+	</script>
+	
+</html>
